@@ -37,7 +37,7 @@ export default function LedTv() {
             "Connect electricity supply to LED TV.",
             "Quick and reliable LED TV installation for a sleek, clutter-free setup.",
           ],
-          price: "₹399",
+          price: "₹299",
         },
         {
           title: "TV Installation (32 - 43 inch)",
@@ -46,7 +46,7 @@ export default function LedTv() {
             "Connect electricity supply to LED TV.",
             "Quick and reliable LED TV installation for a sleek, clutter-free setup.",
           ],
-          price: "₹599",
+          price: "₹349",
         },
         {
           title: "TV Installation (46 - 55 inch)",
@@ -55,7 +55,7 @@ export default function LedTv() {
             "Connect electricity supply to LED TV.",
             "Quick and reliable LED TV installation for a sleek, clutter-free setup.",
           ],
-          price: "₹749",
+          price: "₹549",
         },
         {
           title: "TV Installation (Over 65 inch)",
@@ -64,7 +64,7 @@ export default function LedTv() {
             "Connect electricity supply to LED TV.",
             "Quick and reliable LED TV installation for a sleek, clutter-free setup.",
           ],
-          price: "₹949",
+          price: "₹749",
         },
       ],
     },

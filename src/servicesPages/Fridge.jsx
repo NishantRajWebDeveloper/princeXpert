@@ -13,7 +13,7 @@ export default function Fridge() {
             "Fixes cooling issues, noise, and more with genuine parts.",
             "Parts chargeable as per rate card.",
           ],
-          price: "₹399",
+          price: "₹249",
         },
       ],
     },

@@ -20,7 +20,7 @@ export default function Geyser() {
             "Cleaning, repair, and maintenance of heating element, thermostat, and valves.",
             "Fixes leaks, power issues, and improves performance.",
           ],
-          price: "₹599",
+          price: "₹449",
         },
         {
           title: "Geyser service (11-25 ltr.)",
@@ -28,7 +28,7 @@ export default function Geyser() {
             "Cleaning, repair, and maintenance of heating element, thermostat, and valves.",
             "Fixes leaks, power issues, and improves performance.",
           ],
-          price: "₹649",
+          price: "₹549",
         },
         {
           title: "Geyser service (more than 25 ltr.)",
@@ -36,7 +36,7 @@ export default function Geyser() {
             "Cleaning, repair, and maintenance of heating element, thermostat, and valves.",
             "Fixes leaks, power issues, and improves performance.",
           ],
-          price: "₹699",
+          price: "₹599",
         },
         {
           title: "Geyser installation",
@@ -44,7 +44,7 @@ export default function Geyser() {
             "Professional and safe installation with correct wiring and fittings.",
             "Ensures proper water flow and pressure for efficient operation.",
           ],
-          price: "₹499",
+          price: "₹399",
         },
         {
           title: "Geyser uninstallation",

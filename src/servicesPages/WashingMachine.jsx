@@ -90,7 +90,7 @@ export default function WashingMachine() {
             "Proper setup and safe installation by experts.",
             "Quick and reliable service.",
           ],
-          price: "₹499",
+          price: "₹299",
         },
       ],
     },

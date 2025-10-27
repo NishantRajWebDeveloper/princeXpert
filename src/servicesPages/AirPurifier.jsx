@@ -12,7 +12,7 @@ export default function AirPurifier() {
             "Check-up for power issues, low airflow, noise, filter, and sensor problems.",
             "Quick and expert service for smooth performance.",
           ],
-          price: "₹299",
+          price: "₹249",
         },
         {
           title: "Air purifier filter cleaning",

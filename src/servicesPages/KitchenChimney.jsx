@@ -13,7 +13,7 @@ export default function KitchenChimney() {
             "Removes light grease and dust.",
             "Service by trained professionals.",
           ],
-          price: "₹599",
+          price: "₹549",
         },
         {
           title: "Basic Chimney Cleaning (Island)",
@@ -50,7 +50,7 @@ export default function KitchenChimney() {
             "Proper fitting with all safety checks.",
             "Quick service done at your home.",
           ],
-          price: "₹999",
+          price: "₹699",
         },
         {
           title: "Chimney Installation (Island)",
@@ -59,7 +59,7 @@ export default function KitchenChimney() {
             "Proper fitting with all safety checks.",
             "Quick service done at your home.",
           ],
-          price: "₹1499",
+          price: "₹1099",
         },
       ],
     },
