@@ -67,32 +67,33 @@ export default function Home() {
 {/* Services Section */}
 <section className="py-16 px-6 bg-gray-50">
   <h2 className="text-3xl font-bold text-center mb-10">Services</h2>
-  
+
   <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-  {[
-    { title: "Water Purifier", img: "/icons/water-purifier.webp" },
-    { title: "Air Conditioner", img: "/icons/airconditioner.webp" },
-    { title: "Fridge", img: "/icons/fridge.webp" },
-    { title: "Washing Machine", img: "/icons/washing-machine.webp" },
-  ].map((service, idx) => (
-    <div
-      key={idx}
-      className="bg-white shadow-md rounded-xl p-6 flex flex-col items-center hover:shadow-lg transition"
-    >
-      {/* Icon */}
-      <img
-        src={service.img}
-        alt={service.title}
-        className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 mb-4 object-contain"
-      />
-      
-      {/* Title */}
-      <h3 className="text-xl font-semibold mb-2 text-center">
-        {service.title}
-      </h3>
-    </div>
-  ))}
-</div>
+    {[
+      { title: "Water Purifier", img: "/icons/water-purifier.webp", link: "/services/water-purifier" },
+      { title: "Air Conditioner", img: "/icons/airconditioner.webp", link: "/services/air-conditioner" },
+      { title: "Fridge", img: "/icons/fridge.webp", link: "/services/fridge" },
+      { title: "Washing Machine", img: "/icons/washing-machine.webp", link: "/services/washing-machine" },
+    ].map((service, idx) => (
+      <Link
+        key={idx}
+        to={service.link}
+        className="bg-white shadow-md rounded-xl p-6 flex flex-col items-center hover:shadow-lg transition"
+      >
+        {/* Icon */}
+        <img
+          src={service.img}
+          alt={service.title}
+          className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 mb-4 object-contain"
+        />
+
+        {/* Title */}
+        <h3 className="text-xl font-semibold mb-2 text-center">
+          {service.title}
+        </h3>
+      </Link>
+    ))}
+  </div>
 
 
   {/* See More Button */}

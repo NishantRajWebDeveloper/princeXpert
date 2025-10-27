@@ -84,26 +84,22 @@ export default function Services() {
 
       {/* Services Grid */}
       <section className="py-16 px-6 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          {services.map((service, idx) => (
-            <div
-              key={idx}
-              className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transform hover:-translate-y-2 transition"
-            >
-              {/* Updated Image Size */}
-              <img
-                src={service.img}
-                alt={service.title}
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 mb-4 object-contain"
-              />
-
+      <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        {services.map((service, idx) => (
+          <Link 
+            key={idx} 
+            to={`/services/${service.title.toLowerCase().replace(/\s+/g, "-")}`}
+          >
+            <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transform hover:-translate-y-2 transition">
+              <img src={service.img} alt={service.title} className="w-24 h-24 mb-4 object-contain" />
               <h3 className="text-xl font-semibold mb-2 text-center">{service.title}</h3>
               <p className="text-gray-600 text-center">{service.desc}</p>
             </div>
-          ))}
-        </div>
-      </section>
+          </Link>
+        ))}
+      </div>
+    </section>
 
 
       {/* Optional CTA */}
