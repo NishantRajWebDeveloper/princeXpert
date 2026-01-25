@@ -31,32 +31,32 @@ function App() {
     <BrowserRouter>
       <ScrollToTop /> {/* ensures page scrolls to top on route change */}
       <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/reviews" element={<Reviews />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-
-
-        <Route path="/services/water-purifier" element={<WaterPurifier />} />
-        <Route path="/services/air-conditioner" element={<AirConditioner />} />
-       <Route path="/services/fridge" element={<Fridge />} />
-         <Route path="/services/washing-machine" element={<WashingMachine />} />
-         <Route path="/services/led-tv" element={<LedTv />} />
-        <Route path="/services/air-purifier" element={<AirPurifier />} />
-        <Route path="/services/geyser" element={<Geyser />} />
-        <Route path="/services/foot-massager" element={<FootMassager />} />
-        <Route path="/services/treadmill" element={<Treadmill />} />
-        <Route path="/services/microwave" element={<Microwave />} />
-        <Route path="/services/kitchen-chimney" element={<KitchenChimney />} />
-        <Route path="/services/vacuum-cleaner" element={<VacuumCleaner />} />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
 
+          <Route path="/services/water-purifier" element={<WaterPurifier />} />
+          <Route path="/services/air-conditioner" element={<AirConditioner />} />
+          <Route path="/services/fridge" element={<Fridge />} />
+          <Route path="/services/washing-machine" element={<WashingMachine />} />
+          <Route path="/services/led-tv" element={<LedTv />} />
+          <Route path="/services/air-purifier" element={<AirPurifier />} />
+          <Route path="/services/geyser" element={<Geyser />} />
+          <Route path="/services/foot-massager" element={<FootMassager />} />
+          <Route path="/services/treadmill" element={<Treadmill />} />
+          <Route path="/services/microwave" element={<Microwave />} />
+          <Route path="/services/kitchen-chimney" element={<KitchenChimney />} />
+          <Route path="/services/vacuum-cleaner" element={<VacuumCleaner />} />
 
-      </Routes>
 
+
+        </Routes>
+      </main>
       <Footer />
 
       {/* Bottom navigation for mobile + tablet */}
