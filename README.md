@@ -8,7 +8,6 @@ PrinceXpert is a modern, high-performance web application for a local home appli
 
 Built with **React (Vite)** and optimized for **100/100 Performance & SEO**.
 
-```
 ---
 
 
@@ -21,10 +20,7 @@ Built with **React (Vite)** and optimized for **100/100 Performance & SEO**.
 - **📍 Google Maps Integration:** Lazy-loaded map for performance.
 - **📞 One-Click Contact:** Direct call and WhatsApp buttons for customers.
 
-```
 
-```
----
 
 
 ## 🛠️ Tech Stack
