@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useRef, useEffect } from "react";
 import heroBanner from "/images/hero-banner.jpg";
+import Link from 'next/link';
 
   
 
@@ -95,15 +96,16 @@ export default function Home() {
   </div>
 
 
-  {/* See More Button */}
-  <div className="flex justify-center mt-8">
-    <a
-      href="/services"
-      className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
-    >
-      See More
-    </a>
-  </div>
+{/* View All Services Button */}
+<div className="flex justify-center mt-8">
+  <Link
+    href="/services"
+    className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
+    aria-label="View all repair services"
+  >
+    View All Services
+  </Link>
+</div>
 </section>
 
 

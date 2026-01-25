@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="text-center text-gray-500 text-sm mt-6">
+            <div className="text-center text-gray-700 text-sm mt-6">
                 © {new Date().getFullYear()} PrinceXpert. All rights reserved.
             </div>
         </footer>
