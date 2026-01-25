@@ -31,10 +31,6 @@ Built with **React (Vite)** and optimized for **100/100 Performance & SEO**.
 - **Deployment:** Vercel
 - **Performance:** Optimized images (WebP), Lazy Loading, Code Splitting
 
-```
----
-
-```
 
 ## 🏃‍♂️ Run Locally
 
