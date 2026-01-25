@@ -2,7 +2,6 @@
 ```markdown
 # 🛠️ PrinceXpert - Home Appliance Repair Service
 
-![PrinceXpert Banner](public/images/hero-banner.jpg)
 
 > **Live Demo:** [https://www.princexpert.in](https://www.princexpert.in)
 
@@ -89,7 +88,6 @@ We take performance seriously. Current Lighthouse scores:
 
 **Nishant Raj**
 
-* LinkedIn: [Nishant Raj](https://www.google.com/search?q=https://linkedin.com/in/nishant-raj-131b72251)
 * GitHub: [@NishantRajWebDeveloper](https://www.google.com/search?q=https://github.com/NishantRajWebDeveloper)
 
 ---
@@ -98,14 +96,4 @@ We take performance seriously. Current Lighthouse scores:
 
 This project is open source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
 
-```
 
-### 🎨 One Final "Pro" Tip
-To make your GitHub look truly professional, take a **Screenshot** of your website's homepage:
-1.  Name it `preview.png`.
-2.  Upload it to your repository.
-3.  Change the second line in the code above from `hero-banner.jpg` to `preview.png`.
-
-This gives people a visual preview immediately when they open your repo!
-
-```
