@@ -72,7 +72,7 @@ export default function Services() {
       {/* Hero */}
       <section className="relative w-full h-[400px]">
         <img
-          src="/images/services-banner.png"
+          src="/images/services-banner.webp"
           alt="Services Banner"
           className="w-full h-full object-cover"
         />

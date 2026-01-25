@@ -44,7 +44,7 @@ console.log("Sending data:", { ...formData, time: now });
       {/* Hero */}
       <section className="relative w-full h-[400px] ">
         <img
-          src="/images/contact-banner.jpg"
+          src="/images/contact-banner.webp"
           alt="Contact Banner"
           className="w-full h-full object-cover"
         />

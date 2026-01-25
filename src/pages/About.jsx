@@ -13,7 +13,7 @@ export default function About() {
       {/* Hero */}
       <section className="relative w-full h-[400px]">
         <img
-          src="/images/about-banner.jpg"
+          src="/images/about-banner.webp"
           alt="About Banner"
           className="w-full h-full object-cover"
         />
