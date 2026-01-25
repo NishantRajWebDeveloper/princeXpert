@@ -23,9 +23,9 @@ console.log("Sending data:", { ...formData, time: now });
     emailjs
       .send(
         "service_goxru3p",
-        "template_t779rca",  // replace with your Template ID
+        "template_t779rca", 
         { ...formData, time: now },
-        "WW1OS2_RFQaob0-5T"    // replace with your Public Key
+        "WW1OS2_RFQaob0-5T"    
       )
       .then(
         (result) => {

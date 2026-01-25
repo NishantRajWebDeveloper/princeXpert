@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import { Link } from "react-router-dom";
 import React, { useRef, useEffect } from "react";
 import heroBanner from "/images/hero-banner.jpg";
