@@ -115,7 +115,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-center">
           <div className="space-y-4">
             <div className="text-5xl">⏱️</div>
-            <h4 className="text-xl font-semibold">On-Time Service</h4>
+            <h3 className="text-xl font-semibold">On-Time Service</h3>
             <p className="text-gray-600">We arrive on schedule, every time.</p>
           </div>
           <div className="space-y-4">
